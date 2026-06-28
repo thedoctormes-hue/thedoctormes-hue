@@ -11,7 +11,7 @@
 [![Telegram](https://img.shields.io/badge/📡_Telegram-@DoctorMES-00D4AA?style=flat-square)](https://t.me/DoctorMES)
 [![Founded](https://img.shields.io/badge/📅_Founded-17.05.2026-00D4AA?style=flat-square)]()
 [![Agents](https://img.shields.io/badge/🧬_Agents-8-00D4AA?style=flat-square)]()
-[![Projects](https://img.shields.io/badge/🚀_Projects-23-00D4AA?style=flat-square)]()
+[![Projects](https://img.shields.io/badge/🚀_Projects-24-00D4AA?style=flat-square)]()
 [![Tests](https://img.shields.io/badge/✅_Tests-627-00D4AA?style=flat-square)]()
 [![ADR](https://img.shields.io/badge/📝_ADR-44-00D4AA?style=flat-square)]()
 
@@ -67,8 +67,9 @@ Each agent is an expert in their domain. Together they cover the full cycle: fro
 - [DoctorMandDesign](https://github.com/thedoctormes-hue/DoctorMandDesign) — AI presentation generator. WeasyPrint + Jinja2 + CSS Grid
 - [lab-memory](https://github.com/thedoctormes-hue/lab-memory) — Semantic search across laboratory artifacts (ONNX + FAISS, 12700+ vectors). Python
 - [free-api-hunter](https://github.com/thedoctormes-hue/free-api-hunter) — Scanner for free LLM APIs. Python
-- [lab-landing](https://github.com/thedoctormes-hue/lab-landing) — Laboratory landing page. Static site
+- [LabDoctorM](https://github.com/thedoctormes-hue/LabDoctorM) — Main monorepo: VPN, SaaS, AI agents, shared tooling. Python + Go + Bash
 - [DoctorM_and_Ai](https://github.com/thedoctormes-hue/DoctorM_and_Ai) — Core infrastructure, shared tooling, ADR repository. Python + Go + Bash
+- [shtab-ai](https://github.com/thedoctormes-hue/shtab-ai) — Portfolio landing page (shtab-ai.ru). Next.js
 
 ### 🟡 Paused / In Development
 
@@ -102,7 +103,7 @@ The laboratory doesn't stand still. We've built a **self-evolution system**:
 ## 📊 Stats
 
 - 🧬 **Agents:** 8
-- 🚀 **Projects:** 23
+- 🚀 **Projects:** 24
 - ✅ **Tests:** 627
 - 📝 **ADRs:** 44
 - 🔥 **Incidents:** 31 (resolved and documented)
@@ -176,8 +177,9 @@ All agents communicate through **Myrmex Control** (kanban + sessions + artifacts
 - [DoctorMandDesign](https://github.com/thedoctormes-hue/DoctorMandDesign) — Presentations
 - [lab-memory](https://github.com/thedoctormes-hue/lab-memory) — Semantic search
 - [free-api-hunter](https://github.com/thedoctormes-hue/free-api-hunter) — Free API scanner
-- [lab-landing](https://github.com/thedoctormes-hue/lab-landing) — Landing page
+- [LabDoctorM](https://github.com/thedoctormes-hue/LabDoctorM) — Main monorepo: VPN, SaaS, AI agents
 - [DoctorM_and_Ai](https://github.com/thedoctormes-hue/DoctorM_and_Ai) — Core infrastructure
+- [shtab-ai](https://github.com/thedoctormes-hue/shtab-ai) — Portfolio landing page
 - [vpn-daemon](https://github.com/thedoctormes-hue/vpn-daemon) — VPN daemon
 - [SNZK](https://github.com/thedoctormes-hue/SNZK) — Story graph
 - [remote-access](https://github.com/thedoctormes-hue/remote-access) — Remote access
