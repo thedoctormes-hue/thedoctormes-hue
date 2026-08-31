@@ -84,14 +84,10 @@ fi
 
 # 2. Check for large files (>10MB) in staged changes
 MAX_SIZE=10485760
-large_files=$(git diff --cached --diff-filter=A --name-only 2>/dev/null | while read f; do
-  if [ -f "$f" ]; then
-    size=$(stat -c%s "$f" 2>/dev/null || stat -f%z "$f" 2>/dev/null || echo 0)
-    if [ "$size" -gt "$MAX_SIZE" ]; then
-      echo "$f ($(( size / 1048576 ))MB)"
-    fi
-  fi
-done)
+# ⚡ Bolt optimization: Use xargs with wc -c and awk instead of a while read loop with stat
+# to avoid O(N) subshell spawns, which dramatically speeds up processing for many staged files.
+large_files=$(git diff --cached --diff-filter=A --name-only -z 2>/dev/null | LC_ALL=C xargs -0 wc -c 2>/dev/null | awk -v max="$MAX_SIZE" '$1 > max && $0 !~ /^[[:space:]]*[0-9]+ total$/ { size=$1; sub(/^[[:space:]]*[0-9]+[[:space:]]+/, ""); print $0 " (" int(size/1048576) "MB)" }')
+
 if [ -n "$large_files" ]; then
   echo "❌ BLOCKED: Large files detected:"
   echo "$large_files"
