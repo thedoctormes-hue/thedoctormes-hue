@@ -9,11 +9,11 @@
 [![Website](https://img.shields.io/badge/🌐_Website-shtab--ai.ru-00D4AA?style=flat-square)](https://shtab-ai.ru)
 [![Dashboard](https://img.shields.io/badge/📊_Dashboard-myrmexcontrol.shtab--ai.ru-00D4AA?style=flat-square)](https://myrmexcontrol.shtab-ai.ru)
 [![Telegram](https://img.shields.io/badge/📡_Telegram-@DoctorMES-00D4AA?style=flat-square)](https://t.me/DoctorMES)
-[![Founded](https://img.shields.io/badge/📅_Founded-17.05.2026-00D4AA?style=flat-square)]()
-[![Agents](https://img.shields.io/badge/🧬_Agents-8-00D4AA?style=flat-square)]()
-[![Projects](https://img.shields.io/badge/🚀_Projects-24-00D4AA?style=flat-square)]()
-[![Tests](https://img.shields.io/badge/✅_Tests-627-00D4AA?style=flat-square)]()
-[![ADR](https://img.shields.io/badge/📝_ADR-44-00D4AA?style=flat-square)]()
+![Founded](https://img.shields.io/badge/📅_Founded-17.05.2026-00D4AA?style=flat-square)
+![Agents](https://img.shields.io/badge/🧬_Agents-8-00D4AA?style=flat-square)
+![Projects](https://img.shields.io/badge/🚀_Projects-24-00D4AA?style=flat-square)
+![Tests](https://img.shields.io/badge/✅_Tests-627-00D4AA?style=flat-square)
+![ADR](https://img.shields.io/badge/📝_ADR-44-00D4AA?style=flat-square)
 
 [🇬🇧 English](#) · [🇷🇺 Русский](README_RU.md)
 
