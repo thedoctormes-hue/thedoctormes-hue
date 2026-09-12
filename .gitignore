@@ -85,3 +85,11 @@ tmp/
 *.key
 *.pem
 *.p12
+
+# === OS Specific ===
+._*
+Icon?
+
+# === Editor Backups ===
+*.bak
+*.orig
